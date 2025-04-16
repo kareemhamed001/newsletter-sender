@@ -8,8 +8,11 @@ cp .env.example .env
 <code>
 php artisan key:generate
 </code>
+<code>
+php artisan migrate
+</code>
 <p>
-after that ,add the smtp credentials at .env file
+after that ,add the smtp and database credentials at .env file
 </p>
 <code>
 php artisan serve
